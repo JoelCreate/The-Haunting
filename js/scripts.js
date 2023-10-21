@@ -123,8 +123,9 @@ function showRefreshBtn() {
 
 const openai = new OpenAI({
     // header: Access-Control-Allow-Origin: *,
-    apiKey: process.env.OPENAI_API_KEY,
-    dangerouslyAllowBrowser: true, //take out after
+    //apiKey: process.env.OPENAI_API_KEY,
+    apiKey: OPENAI_API_KEY,
+    dangerouslyAllowBrowser: true
 })
 
 
