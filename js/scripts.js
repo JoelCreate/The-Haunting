@@ -1,5 +1,4 @@
 import { hauntedPlaces } from '/js/hauntedPlaces.js'
-//import { process } from '/js/env.js'
 import OpenAI from 'openai'
 
 const lookUpForm = document.getElementById("look-up")
@@ -121,13 +120,11 @@ function showRefreshBtn() {
 
 //AI Enhanced 
 
-const openai = new OpenAI({
-    // header: Access-Control-Allow-Origin: *,
-    //apiKey: process.env.OPENAI_API_KEY,
-    apiKey: OPENAI_API_KEY,
-    dangerouslyAllowBrowser: true
+const openai = new OpenAI({    
+    apiKey: OPENAI_API_KEY
 })
 
+console.openai
 
 async function enhanceStory() {   
     // Map over all data to find any story
