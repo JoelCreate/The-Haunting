@@ -1,5 +1,10 @@
 import { hauntedPlaces } from '/js/hauntedPlaces.js'
+<<<<<<< HEAD
 import OpenAI from 'openai'
+=======
+//import { process } from '/js/env.js'
+//import OpenAI from './openai'
+>>>>>>> 6b40736c8be5902f14079e02da314ecdc2f59b7a
 
 const lookUpForm = document.getElementById("look-up")
 const selectState = document.getElementById("select-state")
