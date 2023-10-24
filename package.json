@@ -3,10 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {    
-  },
+  "scripts": {},
   "dependencies": {
     "dotenv": "^16.3.1",
+    "node": "^21.0.0",
     "openai": "^4.12.4"
   }
 }
