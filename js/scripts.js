@@ -1,5 +1,5 @@
 import { hauntedPlaces } from '/js/hauntedPlaces.js'
-import { process } from '/js/env.js'
+//import { process } from '/js/env.js'
 import OpenAI from '../openai'
 
 
@@ -124,7 +124,7 @@ function showRefreshBtn() {
 //AI Enhanced 
 
 const openai = new OpenAI({    
-    apiKey: process.env.OPENAI_API_KEY
+    apiKey: OPENAI_API_KEY
 })
 
 console.openai
