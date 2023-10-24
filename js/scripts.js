@@ -1,6 +1,6 @@
 import { hauntedPlaces } from '/js/hauntedPlaces.js'
 //import { process } from '/js/env.js'
-import OpenAI from 'openai'
+import OpenAI from '../node_modules/openai'
 
 
 
