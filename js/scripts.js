@@ -1,6 +1,6 @@
 import { hauntedPlaces } from '/js/hauntedPlaces.js'
 //import { process } from '/js/env.js'
-import * as OpenAI from 'openai'
+import * as OpenAI from 'https://cdn.jsdelivr.net/npm/openai-api@1.3.1/index.min.js'
 
 
 
