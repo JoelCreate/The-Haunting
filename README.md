@@ -1,0 +1,2 @@
+<h1>Read Me</h1><br>
+This fun website was fully designed and developed by me independently, employing a dataset of haunted locations sourced from The Shadowlands Haunted Places Index. To elevate the quality of each eerie tale, I used the OpenAI API while still adhering to the authenticity of the original narratives. I bundeled this project using Parcel prior to its deployment to the online environment.
